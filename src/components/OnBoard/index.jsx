@@ -35,7 +35,7 @@ function OnBoard() {
       </div>
       <div className={style.block}>
         <div>
-          <p className={style.text5}>Proyecto educativo inspirado en</p>
+          {/* <p className={style.text5}>Proyecto educativo inspirado en</p> */}
           <img className={style.carbon} src={Carbon} alt="Carbon logo" />
         </div>
         <button className={style.btn3} onClick={handleRegister}>

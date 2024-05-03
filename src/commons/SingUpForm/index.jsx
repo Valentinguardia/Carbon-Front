@@ -118,7 +118,9 @@ function SingUpForm() {
             {!showPassword ? <CloseEye /> : <OpenEye />}
           </div>
         </div>
-        <ul style={{ listStyleType: "disc", margin: "5px 0 0", color: "yellow" }}>
+        <ul
+          style={{ listStyleType: "disc", margin: "5px 0 0", color: "yellow" }}
+        >
           <li>Mínimo 6 caracteres</li>
           <li>Solo letras y números</li>
         </ul>

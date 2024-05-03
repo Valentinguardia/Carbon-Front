@@ -93,11 +93,11 @@ function LoginForm() {
             {!showPassword ? <CloseEye /> : <OpenEye />}
           </div>
         </div>
-        <button
+        {/* <button
           className={`${style.btn2}`}
         >
           forgot your password()
-        </button>
+        </button> */}
         <div>
           {submitted && error ? <p style={{ margin: 0 }}>{error}.</p> : ""}
         </div>
